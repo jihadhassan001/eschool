@@ -1,0 +1,231 @@
+/* font control */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* common part start */
+:root{
+    --pop: 'Poppins', sans-serif;
+    --rob: 'Roboto', sans-serif;
+
+    --fw: 400;
+
+    --black:  #000000;
+    --red: #FD511A;
+    --green: #21B573;
+    --bg:  #F0FFF0;
+}
+body{
+    font-family: var(--pop);
+    font-size: 16px;
+    font-weight: var(--fw);
+    color: var(--black);
+}
+/* common part end */
+/* header start */
+.header{
+    padding: 17px 0;
+    background-color: var(--bg);
+}
+.m_nav{}
+.logo{}
+.manu{}
+.manu ul li a{
+    padding: 0 12px !important;
+    font-size: 16px;
+    font-weight: var(--fw);
+    color: var(--black) !important;
+    line-height: 24px;
+}
+.manu ul li a:hover{
+    color: var(--red) !important;
+}
+.btn_c{
+    background-color: var(--green);
+    color: #fff;
+    font-family: var(--rob);
+    border-radius: 33px;
+}
+.btn_c:hover, .btn_c:active{
+    background-color: var(--red) !important;
+    color: #fff !important; 
+}
+.btn_sing{ 
+    padding: 12px, 28px; 
+}
+/* header end */
+/* banner start */
+.banner{
+    padding: 0 0 30px;
+    background-color: var(--bg);    
+}
+.b_text{}
+.bp1{
+    margin: 0;
+    color: var(--red);
+}
+.bh1 {
+    margin: 10px 0 20px !important;
+    padding: 0 0px 0 0;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 50px;
+}
+.bh1 span{
+    color: var(--green);
+}
+.bp2{
+    margin: 0;
+    line-height: 33px;
+}
+.btn_get{
+    padding: 12px 36px;
+}
+.b_img{}
+.b_img img{
+}
+/* banner end */
+/* feature section start */
+.feature{}
+.common_pading{
+    padding-bottom: 100px;
+}
+.s-feature{
+    margin: 40px 0 0;
+    padding: 55px 0 50px;
+    background-color: #1a643a;
+    text-align: center;
+    border-radius: 10px;
+    transition: .33s linear;
+}
+.s-feature:hover{
+    box-shadow: 0px 20px 40px 0px #0000001A;
+    background-color: #fff;
+}
+.s-img{
+    width: 65px;
+    height: 85px;
+}
+.s-img img{}
+.s_h2{
+    margin: 22px 0 0 !important;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+.s_p{
+    line-height: 24px;
+}
+/* feature section end */
+/* online course start  */
+.online{
+    
+}
+.c_title{}
+.c_title h1{
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: Poppins;
+    line-height: 54px;
+    color: var(--black); 
+}
+/* online course end  */
+/* modern single item start */
+.modern-sitem{
+    margin: 60px 0 0 !important;
+    padding: 24px 20px 30px 19px;
+    border-radius: 18px;
+    box-shadow: 0px 10px 40px 0px #0000001A;
+}
+.modern_t{
+    margin-bottom: 5px;
+}
+.m-img{}
+.m-img img{
+    border-radius: 11px;
+}
+.buy{
+    margin: 20px 0 35px;
+    padding: 8px 28px !important;
+    width: 135px;
+    height: 35px;
+}
+ul li span{
+    font-weight: 500;
+}
+.left-right{}
+.m-left {}
+.m-left ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.m-left ul li{  
+}
+.m-left ul li .icon{ 
+    margin-right: 7px; 
+}
+/* modern single item end */
+ /* testymony start */
+ .online{}
+ .item{}
+ .t_img{}
+ .t_img img{}
+ .t_text{}
+ .t_text p{}
+  /* testymony end */
+  /* footer top start */
+  .footer_top{
+    padding: 55px 0 55px;
+    background-color:#282531;
+    
+  }
+  .footer_details{
+    padding-right: 100px;
+  }
+  .footer_details p{
+   
+    color: #fff;
+    line-height: 30px;
+}
+  .ft_links{}
+  .ft_links h2{
+    
+margin-bottom: 8px;
+    
+font-weight: 700;
+    
+color: #fff;
+    
+line-height: 28px;
+}
+  .ft_links ul{
+    margin: 0;
+}
+  .ft_links ul li{
+}
+  .ft_links ul li a{
+    margin-bottom: 8px;
+    display: block;
+    color: #fff;
+    line-height: 30px;
+    text-decoration: none;
+}
+  /* footer top end */
+  /* footer start */
+  footer{
+    text-align: center;
+    padding-bottom: 40px;
+    color: #fff;
+    background-color: #282531 !important;
+}
+  footer p{
+    margin-bottom: 0;
+}
+  footer p a{
+    color: #fff;
+  }
+  /* footer end */
+  

@@ -1,0 +1,240 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+     /* header start */
+ .header {
+    padding: 10px 0;
+}
+ .logo {
+    width: 170px;
+}
+ .manu ul li a {
+    margin-bottom: 10px;
+    padding: 0px 16px !important;
+}
+     /* banner start */
+     .b_text {
+        text-align: center;
+    }
+    .bh1 {
+        padding: 0px 4px 0;
+    }
+    .bp2 {
+        padding: 0 12px;
+        margin-bottom: 5px;
+        line-height: 25px;
+    }
+    .b_img img {
+        padding: 0 30px;
+        margin-bottom: 20px;
+    }
+       /* feature section start */
+       .common_pading {
+        padding-bottom: 60px;
+    }
+    .s-feature {
+        margin: 30px 0 0;
+        padding: 45px 0 40px;
+    }
+    .s-img {
+        width: 55px;
+        height: 75px;
+    }
+    .s_h2 {
+        margin: 20px 0 0 !important;
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .s_p {
+        line-height: 20px;
+    }
+     /* online course start */
+     .c_title h1{
+        font-size: 26px;
+        line-height: 35px;
+    }
+      /* modern single item start */
+      .common_pading {
+        padding-bottom: 30px;
+    }
+    .modern-sitem {
+        margin: 8px 0 0;
+    }
+    .buy {
+        margin: 15px 0 20px;
+    }
+    .m-left ul li {
+        font-size: 14px;
+    }
+    /* carousel-item start */
+    .t_img img {
+        padding: 0 70px 20px;
+    }
+    .t_text p {
+        font-size: 14px;
+        text-align: center;
+    }
+    /* footer top start */
+    .footer_top {
+        text-align: center;
+        padding: 55px 0 20px;
+    }
+    .footer_details {
+        margin-bottom: 40px;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    .ft_links ul {
+        margin: 0 0 40px;
+    }
+
+
+
+    
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* header start */
+    .logo {
+        width: 170px;
+    }
+    .manu ul li a {
+        margin-bottom: 10px;
+        padding: 0px 16px !important;
+    }
+     /* banner start */
+     .b_text {
+        text-align: center;
+    }
+    .bh1 {
+        padding: 0px 112px 0;
+    }
+    .bp2 {
+        padding: 0 50px;
+        margin-bottom: 5px;
+        line-height: 30px;
+    }
+    .b_img img {
+        padding: 0 30px;
+        margin-bottom: 30px;
+    }
+      /* feature section start */
+      .common_pading {
+        padding-bottom: 60px;
+    }
+    .s-feature {
+        margin: 30px 0 0;
+        padding: 45px 0 40px;
+    }
+    .s-img {
+        width: 55px;
+        height: 75px;
+    }
+    .s_h2 {
+        margin: 20px 0 0 !important;
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .s_p {
+        line-height: 20px;
+    }
+    /* online course start */
+    .c_title h1{
+        font-size: 26px;
+        line-height: 35px;
+    }
+    /* carousel-item start */
+    .t_img img {
+        padding: 0 120px 20px;
+    }
+    .t_text p {
+        text-align: center;
+    }
+    /* footer top start */
+    .footer_top {
+        text-align: center;
+    }
+    .footer_details {
+        margin-bottom: 40px;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* banner start */
+    .b_text {
+        text-align: center;
+    }
+    .bh1 {
+        padding: 0 170px 0;
+    }
+    .bp2 {
+        padding: 0 90px;
+    }
+    .b_img img {
+        padding: 0 50px;
+        margin-bottom: 30px;
+    }
+    /* feature section start */
+    .common_pading {
+        padding-bottom: 80px;
+    }
+       /* modern single item start */
+    .modern-sitem {
+        margin: 60px 40px 0px;
+    }
+     /* footer top start */
+     .footer_top {
+        text-align: center;
+    }
+    .footer_details {
+        margin-bottom: 40px;
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* modern single item start */
+    .modern-sitem {
+        margin: 0px 0px;
+    }
+    .m-left ul li {
+        font-size: 14px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* banner start */
+    .bh1 {
+        padding: 0 166px 0 0;
+        line-height: 60px;
+    }
+    .bp2 {
+        margin-bottom: 5px;
+    }
+}
+
+ /* Extra extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    /* banner start */
+    .bh1 {
+        padding: 0 240px 0px 0;
+        line-height: 65px;
+    }
+    .bp2 {
+        line-height: 50px;
+    }
+    /* footer top start */
+    .footer_details {
+        padding-right: 120px;
+    } 
+
+}
